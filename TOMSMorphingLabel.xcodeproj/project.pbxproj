@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		DE6BC94F1F7C2C5600DE4D49 /* TOMSMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6BC94D1F7C2C5600DE4D49 /* TOMSMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE6BC9591F7C2C8500DE4D49 /* NSString+Morphing.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6BC9571F7C2C8500DE4D49 /* NSString+Morphing.m */; };
-		DE6BC95A1F7C2C8500DE4D49 /* TOMSMorphingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6BC9581F7C2C8500DE4D49 /* TOMSMorphingLabel.m */; };
+		DE6BC95E1F7C2F4300DE4D49 /* NSString+Morphing.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6BC95B1F7C2F4300DE4D49 /* NSString+Morphing.m */; };
+		DE6BC95F1F7C2F4300DE4D49 /* TOMSMorphingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6BC95D1F7C2F4300DE4D49 /* TOMSMorphingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE6BC94A1F7C2C5600DE4D49 /* TOMSMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TOMSMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6BC94D1F7C2C5600DE4D49 /* TOMSMorphingLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOMSMorphingLabel.h; sourceTree = "<group>"; };
 		DE6BC94E1F7C2C5600DE4D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE6BC9561F7C2C8500DE4D49 /* NSString+Morphing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+Morphing.h"; path = "Classes/NSString+Morphing.h"; sourceTree = SOURCE_ROOT; };
-		DE6BC9571F7C2C8500DE4D49 /* NSString+Morphing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+Morphing.m"; path = "Classes/NSString+Morphing.m"; sourceTree = SOURCE_ROOT; };
-		DE6BC9581F7C2C8500DE4D49 /* TOMSMorphingLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TOMSMorphingLabel.m; path = Classes/TOMSMorphingLabel.m; sourceTree = SOURCE_ROOT; };
+		DE6BC95B1F7C2F4300DE4D49 /* NSString+Morphing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Morphing.m"; sourceTree = "<group>"; };
+		DE6BC95C1F7C2F4300DE4D49 /* NSString+Morphing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Morphing.h"; sourceTree = "<group>"; };
+		DE6BC95D1F7C2F4300DE4D49 /* TOMSMorphingLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOMSMorphingLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +51,10 @@
 		DE6BC94C1F7C2C5600DE4D49 /* TOMSMorphingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				DE6BC9561F7C2C8500DE4D49 /* NSString+Morphing.h */,
-				DE6BC9571F7C2C8500DE4D49 /* NSString+Morphing.m */,
+				DE6BC95C1F7C2F4300DE4D49 /* NSString+Morphing.h */,
+				DE6BC95B1F7C2F4300DE4D49 /* NSString+Morphing.m */,
+				DE6BC95D1F7C2F4300DE4D49 /* TOMSMorphingLabel.m */,
 				DE6BC94D1F7C2C5600DE4D49 /* TOMSMorphingLabel.h */,
-				DE6BC9581F7C2C8500DE4D49 /* TOMSMorphingLabel.m */,
 				DE6BC94E1F7C2C5600DE4D49 /* Info.plist */,
 			);
 			path = TOMSMorphingLabel;
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE6BC9591F7C2C8500DE4D49 /* NSString+Morphing.m in Sources */,
-				DE6BC95A1F7C2C8500DE4D49 /* TOMSMorphingLabel.m in Sources */,
+				DE6BC95E1F7C2F4300DE4D49 /* NSString+Morphing.m in Sources */,
+				DE6BC95F1F7C2F4300DE4D49 /* TOMSMorphingLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
